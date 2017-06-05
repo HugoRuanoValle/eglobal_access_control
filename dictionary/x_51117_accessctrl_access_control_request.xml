@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Access Control Request" max_length="40" name="x_51117_accessctrl_access_control_request" type="collection">
+        <element label="Phase" max_length="40" name="phase" type="string"/>
+        <element label="Profile" max_length="40" name="profile" type="string"/>
+        <element label="Subdirection" max_length="40" name="subdirection" type="string"/>
+        <element label="Task for" max_length="40" name="task_for" type="string"/>
+    </element>
+</database>
