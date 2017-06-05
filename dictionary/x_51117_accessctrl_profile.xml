@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Profile" max_length="40" name="x_51117_accessctrl_profile" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element display="true" label="Profile name" max_length="100" name="profile_name" type="string"/>
+        <element label="Subdirection" max_length="32" name="subdirection" reference="x_51117_accessctrl_subdirection" type="reference"/>
+        <index name="index">
+            <element name="subdirection"/>
+        </index>
     </element>
 </database>
