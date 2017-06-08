@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="" label="Access Control Task" language="en" table="x_51117_accessctrl_access_control_task">
+    <sys_documentation element="phase" label="Phase" language="en" table="x_51117_accessctrl_profile_tasks">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>phase</element>
             <help/>
             <hint/>
-            <label>Access Control Task</label>
+            <label>Phase</label>
             <language>en</language>
-            <name>x_51117_accessctrl_access_control_task</name>
-            <plural>Access Control Tasks</plural>
+            <name>x_51117_accessctrl_profile_tasks</name>
+            <plural>Phases</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-06-08 15:49:17</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
-            <sys_id>31616d600f93320087f24e9ce1050e85</sys_id>
+            <sys_created_on>2017-06-08 15:35:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>922ed5e80f53320087f24e9ce1050e79</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Access Control Task</sys_name>
+            <sys_name>Phase</sys_name>
             <sys_package display_value="E-Global Access Control" source="x_51117_accessctrl">d1ea02a70f03320087f24e9ce1050ef3</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="E-Global Access Control">d1ea02a70f03320087f24e9ce1050ef3</sys_scope>
-            <sys_update_name>sys_documentation_x_51117_accessctrl_access_control_task__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_51117_accessctrl_profile_tasks_phase_en</sys_update_name>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-06-08 15:49:17</sys_updated_on>
+            <sys_updated_on>2017-06-08 15:35:07</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

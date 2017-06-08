@@ -15,7 +15,7 @@
         <mobile_title>Profile tasks</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_51117_accessctrl_profile_tasks</name>
-        <order/>
+        <order>500</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>007dd1680f53320087f24e9ce1050e00</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Profile tasks</sys_name>
         <sys_overrides/>
         <sys_package display_value="E-Global Access Control" source="x_51117_accessctrl">d1ea02a70f03320087f24e9ce1050ef3</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="E-Global Access Control">d1ea02a70f03320087f24e9ce1050ef3</sys_scope>
         <sys_update_name>sys_app_module_007dd1680f53320087f24e9ce1050e00</sys_update_name>
         <sys_updated_by>hugo.ruano</sys_updated_by>
-        <sys_updated_on>2017-06-08 15:31:57</sys_updated_on>
+        <sys_updated_on>2017-06-08 15:58:54</sys_updated_on>
         <timeline_page/>
         <title>Profile tasks</title>
         <uncancelable>false</uncancelable>

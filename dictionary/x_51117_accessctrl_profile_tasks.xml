@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Profile tasks" max_length="40" name="x_51117_accessctrl_profile_tasks" type="collection"/>
+    <element label="Profile tasks" max_length="40" name="x_51117_accessctrl_profile_tasks" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Order" max_length="40" name="order" type="string"/>
+        <element label="Phase" max_length="40" name="phase" type="integer"/>
+        <element label="Profile" max_length="32" name="profile" reference="x_51117_accessctrl_profile" type="reference"/>
+        <element label="Template" max_length="32" name="template" reference="x_51117_accessctrl_template" type="reference"/>
+        <index name="index">
+            <element name="template"/>
+        </index>
+        <index name="index2">
+            <element name="profile"/>
+        </index>
+    </element>
 </database>
