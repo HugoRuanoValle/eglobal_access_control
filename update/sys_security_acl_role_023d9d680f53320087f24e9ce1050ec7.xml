@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-08 15:31:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>023d9d680f53320087f24e9ce1050ec7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_51117_accessctrl_access_control_task.x_51117_accessctrl.access_control_task_user</sys_name>
+        <sys_package display_value="E-Global Access Control" source="x_51117_accessctrl">d1ea02a70f03320087f24e9ce1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="E-Global Access Control">d1ea02a70f03320087f24e9ce1050ef3</sys_scope>
+        <sys_security_acl display_value="x_51117_accessctrl_access_control_task">463d9d680f53320087f24e9ce1050eb6</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_023d9d680f53320087f24e9ce1050ec7</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-08 15:31:00</sys_updated_on>
+        <sys_user_role display_value="x_51117_accessctrl.access_control_task_user" name="x_51117_accessctrl.access_control_task_user">b93d15680f53320087f24e9ce1050ecf</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

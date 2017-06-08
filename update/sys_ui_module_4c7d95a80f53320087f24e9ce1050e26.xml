@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Access Control">179b02e30f43320087f24e9ce1050e9f</application>
+        <filter/>
+        <name>Profile tasks</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_51117_accessctrl.profile_tasks_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-08 15:31:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c7d95a80f53320087f24e9ce1050e26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Profile tasks</sys_name>
+        <sys_package display_value="E-Global Access Control" source="x_51117_accessctrl">d1ea02a70f03320087f24e9ce1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="E-Global Access Control">d1ea02a70f03320087f24e9ce1050ef3</sys_scope>
+        <sys_update_name>sys_ui_module_4c7d95a80f53320087f24e9ce1050e26</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-08 15:31:57</sys_updated_on>
+        <table>x_51117_accessctrl_profile_tasks</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
