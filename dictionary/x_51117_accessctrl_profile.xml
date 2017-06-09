@@ -5,6 +5,9 @@
         <element display="true" label="Profile name" max_length="100" name="profile_name" type="string"/>
         <element label="Subdirection" max_length="32" name="subdirection" reference="x_51117_accessctrl_subdirection" type="reference"/>
         <index name="index">
+            <element name="profile_name"/>
+        </index>
+        <index name="index2">
             <element name="subdirection"/>
         </index>
     </element>

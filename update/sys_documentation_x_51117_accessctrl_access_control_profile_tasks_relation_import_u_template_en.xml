@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_template" label="Template" language="en" table="x_51117_accessctrl_access_control_profile_tasks_relation_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_template</element>
+            <help/>
+            <hint/>
+            <label>Template</label>
+            <language>en</language>
+            <name>x_51117_accessctrl_access_control_profile_tasks_relation_import</name>
+            <plural>Templates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>hugo.ruano</sys_created_by>
+            <sys_created_on>2017-06-09 04:19:00</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>8c0d803c0fdb320087f24e9ce1050e2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Template</sys_name>
+            <sys_package display_value="E-Global Access Control" source="x_51117_accessctrl">d1ea02a70f03320087f24e9ce1050ef3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="E-Global Access Control">d1ea02a70f03320087f24e9ce1050ef3</sys_scope>
+            <sys_update_name>sys_documentation_x_51117_accessctrl_access_control_profile_tasks_relation_import_u_template_en</sys_update_name>
+            <sys_updated_by>hugo.ruano</sys_updated_by>
+            <sys_updated_on>2017-06-09 04:19:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

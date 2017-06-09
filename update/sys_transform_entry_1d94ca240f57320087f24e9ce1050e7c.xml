@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Access control profile tasks import">9e44c6e00f57320087f24e9ce1050eb3</map>
+        <reference_value_field/>
+        <source_field>u_nombre_de_tarea</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_51117_accessctrl_access_control_profile_tasks_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-08 18:22:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1d94ca240f57320087f24e9ce1050e7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_nombre_de_tarea</sys_name>
+        <sys_package display_value="E-Global Access Control" source="x_51117_accessctrl">d1ea02a70f03320087f24e9ce1050ef3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="E-Global Access Control">d1ea02a70f03320087f24e9ce1050ef3</sys_scope>
+        <sys_update_name>sys_transform_entry_1d94ca240f57320087f24e9ce1050e7c</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-08 18:23:15</sys_updated_on>
+        <target_field>task_name</target_field>
+        <target_table>x_51117_accessctrl_profile_tasks</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

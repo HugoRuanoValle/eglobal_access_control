@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Access control profiles import" max_length="40" name="x_51117_accessctrl_access_control_profiles_import" type="collection">
+        <element attributes="import_attribute_name=Perfiles,edge_encryption_enabled=true" label="Perfiles" max_length="43" name="u_perfiles" type="string"/>
+        <element attributes="import_attribute_name=Subdireccion,edge_encryption_enabled=true" label="Subdireccion" max_length="40" name="u_subdireccion" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Access control templates import" max_length="40" name="x_51117_accessctrl_access_control_templates_import" type="collection">
+        <element attributes="import_attribute_name=Assigned group,edge_encryption_enabled=true" label="Assigned group" max_length="40" name="u_assigned_group" type="string"/>
+        <element attributes="import_attribute_name=Categoria,edge_encryption_enabled=true" label="Categoria" max_length="40" name="u_categoria" type="string"/>
+        <element attributes="import_attribute_name=Nombre de Tarea,edge_encryption_enabled=true" label="Nombre de Tarea" max_length="40" name="u_nombre_de_tarea" type="string"/>
+        <element attributes="import_attribute_name=Short Description,edge_encryption_enabled=true" label="Short Description" max_length="90" name="u_short_description" type="string"/>
+        <element attributes="import_attribute_name=Short Description (C),edge_encryption_enabled=true" label="Short Description (C)" max_length="90" name="u_short_description__c_" type="string"/>
+    </element>
+</database>

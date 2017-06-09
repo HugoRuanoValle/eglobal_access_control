@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Access Control Request" max_length="40" name="x_51117_accessctrl_access_control_request" type="collection">
+    <element extends="task" label="Access Control Request" max_length="40" name="x_51117_accessctrl_access_control_request" sizeclass="1" type="collection">
         <element default="1" label="Phase" max_length="40" name="phase" read_only="true" type="string"/>
         <element label="Profile" max_length="40" name="profile" reference="x_51117_accessctrl_profile" type="reference"/>
         <element label="Subdirection" max_length="40" name="subdirection" reference="x_51117_accessctrl_subdirection" type="reference"/>

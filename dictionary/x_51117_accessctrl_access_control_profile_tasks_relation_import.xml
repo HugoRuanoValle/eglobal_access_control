@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Access control profile tasks relation import" max_length="40" name="x_51117_accessctrl_access_control_profile_tasks_relation_import" type="collection">
+        <element attributes="import_attribute_name=Phase" label="Phase" max_length="40" name="u_phase" type="integer"/>
+        <element attributes="import_attribute_name=Profile,edge_encryption_enabled=true" label="Profile" max_length="40" name="u_profile" type="string"/>
+        <element attributes="import_attribute_name=Template,edge_encryption_enabled=true" label="Template" max_length="40" name="u_template" type="string"/>
+    </element>
+</database>
