@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_51117_accessctrl.getSubdirectionFrontUser</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>getSubdirectionFrontUser</name>
+        <script><![CDATA[var getSubdirectionFrontUser = Class.create();
+getSubdirectionFrontUser.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getFrontUser: function() {
+	        
+		var subdirection = this.getParameter('sysparm_subdirection');
+		var gr =  new GlideRecord('x_51117_accessctrl_subdirection');
+		gr.addQuery('sys_id', subdirection);
+		gr.query();
+		gr.next(); 
+        
+		var front_user = gr.getValue('front_user');
+	 
+		var result = this.newItem("result");	
+		result.setAttribute("front_user", front_user);
+		
+	},
+
+	type: 'getSubdirectionFrontUser'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>hugo.ruano</sys_created_by>
+        <sys_created_on>2017-06-21 19:19:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>aa1e417c0fa3320087f24e9ce1050e85</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>getSubdirectionFrontUser</sys_name>
+        <sys_package display_value="E-Global Access Control" source="x_51117_accessctrl">d1ea02a70f03320087f24e9ce1050ef3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="E-Global Access Control">d1ea02a70f03320087f24e9ce1050ef3</sys_scope>
+        <sys_update_name>sys_script_include_aa1e417c0fa3320087f24e9ce1050e85</sys_update_name>
+        <sys_updated_by>hugo.ruano</sys_updated_by>
+        <sys_updated_on>2017-06-21 21:14:56</sys_updated_on>
+    </sys_script_include>
+</record_update>
