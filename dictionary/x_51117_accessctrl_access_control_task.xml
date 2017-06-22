@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Access Control Task" max_length="40" name="x_51117_accessctrl_access_control_task" type="collection">
-        <element label="Parent Request" max_length="32" name="parent_request" read_only="true" reference="x_51117_accessctrl_access_control_request" type="reference"/>
+    <element audit="true" extends="task" label="Access Control Task" max_length="40" name="x_51117_accessctrl_access_control_task" type="collection">
+        <element label="Phase" max_length="40" name="phase" read_only="true" type="integer"/>
     </element>
 </database>

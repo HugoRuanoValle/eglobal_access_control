@@ -11,9 +11,9 @@
             <plural>Phases</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>hugo.ruano</sys_created_by>
-            <sys_created_on>2017-06-05 16:24:49</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
-            <sys_id>d9cc0ee30f43320087f24e9ce1050ea9</sys_id>
+            <sys_created_on>2017-06-22 02:57:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>76f676f80fe7320087f24e9ce1050e7f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Phase</sys_name>
             <sys_package display_value="E-Global Access Control" source="x_51117_accessctrl">d1ea02a70f03320087f24e9ce1050ef3</sys_package>
@@ -22,7 +22,7 @@
             <sys_scope display_value="E-Global Access Control">d1ea02a70f03320087f24e9ce1050ef3</sys_scope>
             <sys_update_name>sys_documentation_x_51117_accessctrl_access_control_request_phase_en</sys_update_name>
             <sys_updated_by>hugo.ruano</sys_updated_by>
-            <sys_updated_on>2017-06-05 16:24:49</sys_updated_on>
+            <sys_updated_on>2017-06-22 02:57:21</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
